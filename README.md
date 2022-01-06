@@ -46,10 +46,10 @@ In the sense of "Things and packages you want to keep in mind when setting up a 
 - Allows you to manage paths and stuff you want to manage centrally (and hidden) in a `config.yml` which then can be imported in R with `config::config::get()`.
 - **Don't share this with others!** I.e. include it in the `.gitignore` (don't track with git and don't push) and `.Rbuildignore` (don't embody in package)!
 
-> However, does heroku push only include the files tracked by git??
-> Obviously, your `config.yml` needs to be pushed to heroku too...
-> See f.ex. here: https://stackoverflow.com/questions/50942102/using-gitignore-on-heroku
-> Or: https://www.r-bloggers.com/2020/11/deploying-an-r-shiny-app-on-heroku-free-tier/
+> * However, does heroku push only include the files tracked by git??
+> * Obviously, your `config.yml` needs to be pushed to heroku too...
+> * See f.ex. here: https://stackoverflow.com/questions/50942102/using-gitignore-on-heroku
+> * Or: https://www.r-bloggers.com/2020/11/deploying-an-r-shiny-app-on-heroku-free-tier/
 
 
 ### renv
