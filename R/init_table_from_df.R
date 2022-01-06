@@ -34,6 +34,9 @@ init_table_from_df <- function(credentials, db_table, df) {
   ## check
   if (!(db_table %in% DBI::dbListTables(con))) stop("Table does not exist!")
   
+  ## stop connection
+  DBI::dbDisconnect(con)
+  
   cat("Table ", db_table, " initialized\n")
   
 }
