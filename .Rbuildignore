@@ -8,3 +8,4 @@
 ^run_app\.R$
 ^Dockerfile$
 ^\.dockerignore$
+^config.yml$
