@@ -1,7 +1,5 @@
 # Hosting Shiny on Heroku using Docker
 
-blobb
-
 Some personal (non-conclusive) learning notes... Google is your friend!
 
 **Keep calm and dockerize it** or something like that. My personal take-away (from this simple experiment) was that once the app runs in a container on your local machine it is straight forward to publish the app! I guess that's the beauty of containers - once they run, they run. I mean isn't that the point?
