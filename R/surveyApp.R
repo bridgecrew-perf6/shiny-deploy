@@ -12,8 +12,6 @@
 
 #### Proceed ####
 # Understand shinyjs
-# Save to database with custom_id = login credentials
-# Host app (docker -> see golem) and test
 # Clone individual functions: https://github.com/jdtrat/shinysurveys/blob/main/R/func_survey-output.R
 
 

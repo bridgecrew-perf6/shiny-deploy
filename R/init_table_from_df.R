@@ -1,14 +1,7 @@
-## TODO:
-# config
-# adjust app
-# commit
-# update heroku
-# test
-
 
 #' Init psql table from data.frame
 #'
-#' @param credentials from config
+#' @param credentials list from config
 #' @param db_table psql table name
 #' @param df df (serves as template)
 #'

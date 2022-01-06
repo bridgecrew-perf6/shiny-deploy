@@ -4,18 +4,7 @@
 # https://shiny.rstudio.com/articles/overview.html
 
 
-#### Removed..........
-## Added postgreSQL
-## User: shiny
-## sudo -i -u shiny
-## psql
-
-## created shiny_survey table
-
-## SELECT * FROM shiny_survey;
-#### ................
-
-#' write response to database
+#' Write response to database
 #'
 #' @param credentials to connect to db (preferably from config.yml)
 #' @param db_table table name in postgres database
