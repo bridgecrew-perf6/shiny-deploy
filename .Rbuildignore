@@ -1,0 +1,10 @@
+^renv$
+^renv\.lock$
+^\./R/authentication\.R$
+^\./R/authr_authentication\.R$
+^\./R/module_authentication\.R$
+^.*\.Rproj$
+^\.Rproj\.user$
+^run_app\.R$
+^Dockerfile$
+^\.dockerignore$

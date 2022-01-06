@@ -1,0 +1,14 @@
+args <- commandArgs(trailingOnly = TRUE)
+port <- args[1]
+blobb <- args[2]
+
+print(length(args))
+
+pass_args <- function(x = port, y = blobb) {
+  
+  print(x)
+  print(y)
+  
+}
+
+pass_args()

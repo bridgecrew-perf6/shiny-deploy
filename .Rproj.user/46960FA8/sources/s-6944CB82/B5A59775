@@ -1,0 +1,28 @@
+{
+    "id": "B5A59775",
+    "path": "~/shiny/survey/R/surveyApp.R",
+    "project_path": "R/surveyApp.R",
+    "type": "r_source",
+    "hash": "232384628",
+    "contents": "",
+    "dirty": false,
+    "created": 1641456754592.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "86,35",
+        "scrollLine": "75",
+        "marks": "<:0,0\n>:0,0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1641459626,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1641459626903,
+    "read_only": false,
+    "read_only_alternatives": []
+}

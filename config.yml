@@ -1,0 +1,9 @@
+default:
+    user:
+        u1: "Daniel Heimgartner"
+        u2: "Adrian Heimgartner"
+        u3: "Simon Heimgartner"
+    password:
+        u1: "daniel"
+        u2: "adrian"
+        u3: "simon"
