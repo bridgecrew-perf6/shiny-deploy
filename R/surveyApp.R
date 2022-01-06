@@ -83,9 +83,8 @@ surveyApp <- function(...) {
       df_db <<- shinysurveys::getSurveyData(custom_id = credentials()$info[["user"]])
       ?shinysurveys::getSurveyData
       ## write to database here
-      ## TODO: implement credentials in response_to_db()
       response <- df_db %>% dplyr::mutate(across(everything(), as.character))
-      # response_to_db(response = response)
+      response_to_db(conf$credentials, "shiny_survey", response = response)
       message("Writing to database:\n---\n", paste0(capture.output(response), collapse = "\n"))
       
       showModal(modalDialog(

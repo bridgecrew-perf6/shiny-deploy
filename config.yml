@@ -7,3 +7,9 @@ default:
         u1: "daniel"
         u2: "adrian"
         u3: "simon"
+    credentials:
+        dbname: "d4e17lkcj352ap"
+        host: "ec2-3-91-128-147.compute-1.amazonaws.com"
+        user: "njruvvlyoekhyn"
+        port: 5432
+        password: "a392c067c9a02c74f866a2743478536340be4f333670ced063540ec8a7913740"

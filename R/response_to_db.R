@@ -26,10 +26,16 @@
 response_to_db <- function(credentials = NULL, db_table = "shiny_survey", response) {
   
   ## establish connection (pass credentials to dbConnect)
-  con <- DBI::dbConnect(RPostgres::Postgres())
+  con <- DBI::dbConnect(RPostgres::Postgres(),
+                        dbname = credentials$dbname,
+                        host = credentials$host,
+                        user = credentials$user,
+                        port = credentials$port,
+                        password = credentials$password,
+  )
   
   ## check if table exists
-  if (!(db_table %in% DBI::dbListTables(con))) stop("Table does not exist!")
+  if (!(db_table %in% DBI::dbListTables(con))) stop("Table does not exist! Consider init_table_from_df()")
   
   ## write to db
   DBI::dbAppendTable(con, db_table, response)
